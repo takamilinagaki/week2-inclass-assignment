@@ -4,15 +4,14 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  gap:30px;
-  font-size: 18px;
-  font-family: 'Open San';
+  justify-content: space-between;
+  font-size: 20px;
   background-color: var(--light-orange);
 }
 
 .description {
   display: inherit;
-  justify-content: inherit;
+  justify-content: center;
   align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
@@ -281,13 +280,4 @@
 }
 
 
-/*my stylize*/
 
-.text1{
-  font-size: 20px;
-}
-
-.title{
-  font-size: 50px;
-  font-family: var(--font-mono);
-}
