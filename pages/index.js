@@ -44,7 +44,6 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 
-       <alart>Login Page</alart>
        <h1 class="title">Enter Your Fist name and Username here</h1>
 
        <div class="name_section">

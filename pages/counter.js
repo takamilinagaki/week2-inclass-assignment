@@ -85,8 +85,8 @@ export default function Counter() {
             <p className ={inter.className}>
                 {number}
             </p>
-            <button onClick={() => setNumber(number + 1)}>Increment</button>
-            <button onClick={() => setNumber(number - 1)}>Decrement</button>
+            <button class="buttons" onClick={() => setNumber(number + 1)}>Increment</button>
+            <button class="buttons" onClick={() => setNumber(number - 1)}>Decrement</button>
          
         </div>
       </main>
