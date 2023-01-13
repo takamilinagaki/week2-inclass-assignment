@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Counter() {
     const [number,setNumber]=useState(0);
     const searchParams=useSearchParams();
-    const isUser = searchParams.get('username')
+    const isUser = searchParams.get('firstName')
     const router=useRouter()
 
 
