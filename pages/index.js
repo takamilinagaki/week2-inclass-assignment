@@ -44,11 +44,6 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
 
-    
-
-     
-      <h1 class="title">Hello! Enter Your First name and Username</h1>
-  
        
        
       <label name="text1">Your First name:</label>
