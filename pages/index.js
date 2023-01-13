@@ -41,7 +41,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
        
-       <label>First name:</label>
+       <label name="text1">Your First name:</label>
        <input
        type="text"
        id="first"
@@ -52,7 +52,7 @@ export default function Home() {
        value={formData.first}
        />
 
-       <label>Username:</label>
+       <label name="text1">Your Username:</label>
        <input
        type="text"
        id="username"
@@ -65,7 +65,7 @@ export default function Home() {
        value={formData.first}
        />
        
-       <button type="submit" onClick={()=>CheckLogin()}>Submit</button>
+       <button name="submit_button" type="submit" onClick={()=>CheckLogin()}>Submit</button>
 
       </main>
     </>
