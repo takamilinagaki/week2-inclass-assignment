@@ -9,6 +9,11 @@
   background-color: var(--light-orange);
 }
 
+button{
+  border-radius: 10px;
+  font-size: 20px;
+}
+
 .description {
   display: inherit;
   justify-content: center;
