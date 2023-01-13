@@ -4,7 +4,6 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  justify-content: space-between;
   font-size: 20px;
   background-color: var(--light-orange);
 }
@@ -139,6 +138,15 @@ button{
 
 .title{
   font-size: 50px;
+}
+
+.username_section{
+  padding-top: 50px;
+}
+
+.submit_button{
+  width: 100px;
+  height: 30px;
 }
 
 /* Conic Gradient Animation */

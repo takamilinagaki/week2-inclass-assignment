@@ -46,7 +46,9 @@ export default function Home() {
 
        <alart>Login Page</alart>
        <h1 class="title">Enter Your Fist name and Username here</h1>
-      <label name="text1">Your First name:</label>
+
+       <div class="name_section">
+       <label name="text1">Your First name:</label>
        <input
        type="text"
        id="first"
@@ -56,7 +58,9 @@ export default function Home() {
        onChange={(e=> setFormData({...formData, firstName: e.target.value}))}
        value={formData.first}
        />
-
+       </div>
+      
+       <div class="username_section">
        <label name="text1">Your Username:</label>
        <input
        type="text"
@@ -69,6 +73,8 @@ export default function Home() {
        onChange={(e=> setFormData({...formData, username: e.target.value}))}
        value={formData.first}
        />
+       </div>
+       
        
        <button name="submit_button" type="submit" onClick={()=>CheckLogin()}>Submit</button>
 
