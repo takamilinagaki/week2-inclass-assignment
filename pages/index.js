@@ -40,6 +40,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+
+        <h1 class="title">Enter Your First name and Username</h1>
        
        <label name="text1">Your First name:</label>
        <input

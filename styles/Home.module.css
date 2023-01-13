@@ -5,6 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: var(--light-orange);
 }
 
 .description {
@@ -283,4 +284,9 @@
 .text1{
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.title{
+  font-size: 50px;
 }
