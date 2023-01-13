@@ -45,7 +45,7 @@ export default function Home() {
       <main className={styles.main}>
 
        
-       
+       <h1 class="title">Enter Your Fist name and Username here</h1>
       <label name="text1">Your First name:</label>
        <input
        type="text"
