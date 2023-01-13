@@ -4,7 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import {useState} from 'react'
 import { useRouter } from 'next/router'
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Opensan"></link>
+
 
 const inter = Inter({ subsets: ['latin'] })
 
